@@ -1,1 +1,3 @@
-Read me for low level programming
+task 9: This program uses a for loop to iterate through the numbers 0 to 9, and uses the putchar function to print each number as a character. To print the comma and space separators, it checks if the current number is not equal to 9, and if so, prints the comma and space characters.
+
+Note that instead of using a character variable to represent the digits, this program uses integer arithmetic to convert the digits to their ASCII character codes. Specifically, it adds the ASCII code for the character '0' (which is 48) to the digit, which results in the ASCII code for the corresponding character. For example, when num is 0, num + '0' evaluates to 48, which is the ASCII code for the character '0'.
