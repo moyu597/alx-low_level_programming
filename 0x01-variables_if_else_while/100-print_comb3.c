@@ -19,7 +19,7 @@ int main(void)
 
 			if (tens < 8)
 			{
-				puutchar(',');
+				putchar(',');
 				putchar(' ');
 			}
 		}
