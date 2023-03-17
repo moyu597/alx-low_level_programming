@@ -12,9 +12,9 @@ int main(void)
 
 	while (mynumber < 10)
 	{
-		putchar(mynumber);
+		printf("d", mynumber);
 		mynumber++;
 	}
-	putchar('\n');
+	printf('\n');
 	return (0);
 }
