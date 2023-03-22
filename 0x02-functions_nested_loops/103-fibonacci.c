@@ -13,7 +13,7 @@ int main(void)
 	while (curr <= 4000000)
 	{
 		next = prev + curr;
-		prev = cuurr;
+		prev = curr;
 		curr = next;
 
 		if (curr % 2 == 0)
