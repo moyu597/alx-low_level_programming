@@ -11,7 +11,7 @@ void more_numbers(void)
 	int i = 0;
 	char c;
 
-	while (i <= 10)
+	while (i <= 9)
 	{
 	for (c = 0; c <= 14; c++)
 	{
