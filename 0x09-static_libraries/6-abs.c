@@ -1,21 +1,21 @@
 #include "main.h"
+
 /**
-* _isalpha - Shows 1 if the input is c
-* letter Another cases, shows 0
+* _abs - gives the absolute value
+* of an integer.
 *
-* @c: The character in ASCII code
+* @n: input number as an integer.
 *
-* Return: 1 for letters. Returns 0 otherwise
+* Return: absolute value
 */
-int _isalpha(int c)
-{
-	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
+int _abs(int n)
 	{
-	return (1);
+	if (n >= 0)
+	{
+	return (n);
 	}
 	else
 	{
-	return (0);
+	return (n * -1);
 	}
-	_putchar('\n');
 }
